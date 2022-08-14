@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <title>Garden Indian Restaurant</title>
+</head>
+<body>
+    <!-- The header at the top of the page, containing the restaurant name and nav links  -->
+    <div class="header">
+        <nav>
+            <div class="club-long">
+                <h1><a href="Home.html">Garden Indian Restaurant</a></h1>
+            </div>
+            <div class="club-short">
+                <h1><a href="Home.html">Garden Indian Restaurant</a></h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="LunchMenu.html">Lunch Menu</a></li>
+                    <li><a href="DinnerMenu.html">Dinner Menu</a></li>
+                    <li><a href="Order.html">Order Online</a></li>
+                    <li><a href="Bookings.html">Bookings</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <div>
+                        <span class="search-icon material-symbols-outlined">search</span>
+                        <span class="search-bar"><form action="Search.html" method="GET"><input id="search" type="text" name="search" placeholder="Search"></form></span>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </div>
+    <!-- The main section of the page, containing the content of the page  -->
+    <div class="banner">
+        <img src="images/banner.jpg" alt="This image cannot be displayed on this device.">
+        <section class="main">
+            <h2>Report</h2>
+
+            <p>The original website for the Garden Indian Restaurant contained all of the necessary information, however it lacked two main features:</p>
+            <ol>
+                <li>It was not a modern website. The design was outdated and it was not optimised for mobile devices.</li>
+                <li>It lacked the ability to interact directly through the website. This includes the ability to make a booking or to order take away.</li>
+            </ol>
+            <p>This new design is aimed at addressing these two main issues.</p>
+
+            <p>In order to update the website to look and feel modern, the starting point was the header at the top. This needed to be simple so as to make it easy for the user to navigate the website. A new, modern font was selected from Google Fonts and a dark red was applied to the header and footer of the website. This colour contrasts well on white and looks clean and modern. The header, including navigation links, was designed to change shape as the screen size decreases.</p>
+
+            <p>In the center of the page it was decided to place a new picture as the background. The original pictures on the website were low quality and did not look professional. A picture (see attribution below) was found that looked very appealing and helped draw the users attention to the main product of the restaurant: food. The main text of each page was placed on top of this picture with white text, and because the text would often overflow the ability to scroll down was added to the element.</p>
+
+            <p>It was decided that such information as opening hours, phone number and address were important enough to add to every page of the website. These were added to the footer on each page, which was styled in a similar way to the header. This creates symmery in the webpage, and draws the users attention towards the main part of the page while also allowing easy access to important restaurant details.</p>
+
+            <p>The lunch menu and dinner menu were updated by removing borders except for a line under each subheading. Original pictures were added to an image carousel on a gallery page that the user can click through at their own pace.</p>
+
+            <p>The interactive elements of the website include search, bookings and a take away app:</p>
+                
+            <p>The search function is accessible by a search icon at the top of each page. Clicking on this produces an input box where the user can type in their request. Pressing enter then opens a new page with search results, and page which contains any combination of the search query.</p>
+
+            <p>The bookings form has been updated from the original by adding a form that the guest can add their details, as well as preferred date and time. It was decided to place each input on a separate line to keep with the clean look of the rest of the website. Placeholders were provided for the last two inputs to give guests an idea of the type of input expected.</p>
+
+            <p>The take away app is the most significant new component of this website. It extends the take away menu by the addition of an "Add" button next to each menu item. Upon clicking this button, diners are asked for a quantity. They can do this for as many items as they choose, and then can press "Add to Cart" which will redirect them to the Shopping Cart page. Here, they will be presented with their current selections, quantity and total price. If they are happy with their order, they can enter their first name and mobile number and press "Submit Order". Otherwise, they can press "Clear Shopping Cart" to start again. It was decided to keep the details as short as possible here to make the ordering process as quick and smooth as possible.</p>
+
+            <p>The take away app uses local storage to save the shopping cart to the browser. This means that if the user clicks out of the shopping cart and returns later, they will still see the items they previously selected.</p>
+
+            <p>For mobile users, the website has been designed to change for smaller screen sizes. The background image for the main text is not appropriate for smaller screen sizes, so is replaced by a black background for these devices. Furthermore, the navigation links are replaced by a hamburger menu that, when clicked, diplays the links down the page.</p>
+
+            <h3>Attributions</h3>
+            <p><cite>Indian Food. (2022). [Photograph]. Https://Www.Etoile-Cooking.Com/. https://www.etoile-cooking.com/our-founder</cite></p>
+        </section>
+    </div>
+    <!-- The footer of the page, containing the opening hours, address and phone number  -->
+    <div class="footer">
+        <footer>
+            <div>
+                <h3>Opening Hours</h3>
+                <table>
+                <tr><th></th><th>&nbsp;&nbsp;</th><th>Lunch</th><th>&nbsp;&nbsp;</th><th>Dinner</th></tr>
+                <tr><th>Monday</th><td></td><td>Closed</td><td></td><td>Closed</td></tr>
+                <tr><th>Tuesday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Wednesday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Thursday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Friday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Saturday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Sunday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                </table>
+            </div>
+            <div>
+                <h3>Phone</h3>
+                <p>
+                (03) 9568 1486
+                </p>
+                <h3>Email</h3>
+                <p>
+                <kbd>thegarden@c-link.com.au</kbd>
+                </p>
+                <h3>Address</h3>
+                <p>
+                Chadstone Shopping Centre<br>
+                1341 Dandenong Rd., Malvern East Vic., 3148<br>
+                </p>
+            </div>
+            <div>
+                <h3>Website Details</h3>
+                <p>
+                    Website developed by Rick Waldron
+                </p>
+                <p>
+                    Student ID: 0061135160
+                </p>
+                <a href="Report.html">Link to Report</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

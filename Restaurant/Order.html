@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <title>Garden Indian Restaurant</title>
+</head>
+<body>
+    <!-- The header at the top of the page, containing the restaurant name and nav links  -->
+    <div class="header">
+        <nav>
+            <div class="club-long">
+                <h1><a href="Home.html">Garden Indian Restaurant</a></h1>
+            </div>
+            <div class="club-short">
+                <h1><a href="Home.html">Garden Indian Restaurant</a></h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="LunchMenu.html">Lunch Menu</a></li>
+                    <li><a href="DinnerMenu.html">Dinner Menu</a></li>
+                    <li><a href="Order.html">Order Online</a></li>
+                    <li><a href="Bookings.html">Bookings</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <div>
+                        <span class="search-icon material-symbols-outlined">search</span>
+                        <span class="search-bar"><form action="Search.html" method="GET"><input id="search" type="text" name="search" placeholder="Search"></form></span>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </div>
+    <!-- The main section of the page, containing the content of the page  -->
+    <div class="banner">
+        <img src="images/banner.jpg" alt="This image cannot be displayed on this device.">
+        <section class="main">
+            <h2>Order Online</h2>
+            <form action="Cart.html" method="GET">
+            <button id="big-button">Add to Cart</button>
+            <table class="menu">
+            <tr><th colspan="4">Entrée</th></tr>
+            <tr><th class="name">Vegetable Samosa</th>
+                <td>Deep fried pastry stuffed with lightly spiced potatoes and green peas</td>
+                <td class="price">$7.50</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Onion Bhaji</th>
+                  <td>Coriander flavoured onion fritters</td>
+                  <td class="price">$7.50</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Hara Bhara Kebab</th>
+                  <td>Shallow fried vegetable and spinach patties</td>
+                  <td class="price">$12.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Chicken Tikka</th>
+                  <td>Boneless marinated chicken grilled in tandoor</td>
+                  <td class="price">$11.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Seekh Kebab</th>
+                  <td>Spiced and skewed lamb mince cooked in tandoor</td>
+                  <td class="price">$10.00</td><td><button class="add" type="button">Add</button></td></tr>
+
+              <tr><th colspan="4">Chicken</th></tr>        
+              <tr><th class="name">Chicken Tikka Masala (medium)</th>
+                  <td>Unique combination of spices cooked with onion, capsicum and tomato</td>
+                  <td class="price">$18.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Chicken Balti (medium)</th>
+                  <td>Boneless chicken cooked in medium spiced sauce with onion, capsicum and tomat</td>
+                  <td class="price">$18.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Chicken Korma (mild)</th>
+                  <td>Chicken cooked in creamy cashew nut gravy</td>
+                  <td class="price">$18.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Kadai Chicken (medium)</th>
+                  <td>Chicken cooked in kadai gravy</td>
+                  <td class="price">$18.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Chicken Vindaloo (HOT)</th>
+                  <td>Spicy curry prepared in goan style</td>
+                  <td class="price">$18.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Mysore Chicken (HOT)</th>
+                  <td>Chicken cooked with fresh chillies in coconut creamy sauce</td>
+                  <td class="price">$18.00</td><td><button class="add" type="button">Add</button></td></tr>
+
+              <tr><th colspan="4">Lamb</th></tr>
+              <tr><th class="name">Lamb Rogan Josh (medium)</th>
+                <td>Lamb cooked in traditional north Indian style</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Lamb Korma (mild)</th>
+                <td>Blend of creamy cashew nut gravy cooked with lamb</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Lamb Madras (medium)</th>
+                <td>Creamy coconut based delicacy cooked to perfection</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Saag Lamb (mild to medium)</th>
+                <td>Diced lamb cooked with spinach sauce</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Lamb Masala (medium)</th>
+                <td>Lamb cooked in onion, tomato masala gravy</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Lamb Vindaloo (HOT)</th>
+                <td>Spicy lamb curry prepared in Goan style</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+      
+              <tr><th colspan="4">Beef</th></tr>
+              <tr><th class="name">Beef Rogan Josh (medium)</th>
+                <td>Diced beef cooked in north Indian style</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Beef Masala (medium)</th>
+                <td>Meat cooked with onion, tomato, capsicum in masala gravy</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Beef Korma (mild)</th>
+                <td>Diced beef cooked in creamy cashew nut gravy</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Beef Madras (mild to medium)</th>
+                <td>Combination of creamy coconut sauce cooked to perfection</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Beef Vindaloo (HOT)</th>
+                <td>Spicy Goan style curry cooked to perfection</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Beef Pepper Fry (HOT)</th>
+                <td>Spicy beef curry cooked with black pepper</td>
+                <td class="price">$19.00</td><td><button class="add" type="button">Add</button></td></tr>
+
+
+              <tr><th colspan="4">Seafood</th></tr>
+              <tr><th class="name">Prawn Malabari (mild)</th>
+                <td>Prawn cooked with onion, capsicum in coconut gravy</td>
+                <td class="price">$20.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Prawn / Fish Masala (medium)</th>
+                <td>Combination of spices cooked with onion, tomato and capsicum</td>
+                <td class="price">$20.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Prawn Vindaloo (HOT)</th>
+                <td>Spicy curry cooked in Goan style</td>
+                <td class="price">$20.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Butter Prawn (mild)</th>
+                <td>Blend of creamy tomato gravy with prawn</td>
+                <td class="price">$20.00</td><td><button class="add" type="button">Add</button></td></tr>
+              <tr><th class="name">Goan Fish Curry (mild)</th>
+                <td>Fish cooked with creamy coconut gravy</td>
+                <td class="price">$20.00</td><td><button class="add" type="button">Add</button></td></tr>
+
+
+
+                <tr></tr><th colspan="4">Vegetarian</th></tr>
+                <tr><th class="name">Butter Paneer (mild)</th>
+                <td>Indian cottage cheese cooked in creamy tomato gravy</td>
+                  <td class="price">$17.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Paneer Tikka Masala (medium)</th>
+                  <td>Cottage cheese with onion, tomato, capsicum and spiced gravy</td>
+                  <td class="price">$17.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Kadai Paneer (medium)</th>
+                  <td>Cottage cheese cooked in kadai Gravy</td>
+                  <td class="price">$17.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Paneer Bhurji (medium)</th>
+                  <td>Gratted Cottage cheese cooked with onion, capsicum in tomato sauce</td>
+                  <td class="price">$17.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Palak Paneer (mild to medium)</th>
+                  <td>Cottage cheese cooked in mild spiced spinach sauce</td>
+                  <td class="price">$17.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Achari Paneer (medium)</th>
+                  <td>Cottage cheese cooked in pickle sauce</td>
+                  <td class="price">$17.00</td><td><button class="add" type="button">Add</button></td></tr>         
+                <tr><th class="name">Vegetable Korma (mild)</th>
+                  <td>Mix vegetable cooked in creamy cashew nut gravy</td>
+                  <td class="price">$17.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Mix vegetable (medium)</th>
+                  <td>Fresh vegetable cooked in medium spiced gravy</td>
+                  <td class="price">$16.00</td><td><button class="add" type="button">Add</button></td></tr>                          
+                <tr><th class="name">Chole Masala/Chole Palak (medium)</th>
+                  <td>Chickpeas cooked in onion tomato gravy or spinach sauce</td>
+                  <td class="price">$16.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Malai Kofta (mild)</th>
+                  <td>Mashed potato, dry fruit and cottage cheese dumpling cooked in 
+                    rich cashew nut gravy</td>
+                  <td class="price">$17.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Aloo Gobi / Aloo Mutter (medium)</th>
+                  <td>Potatoes cooked with cauliflower or green peas in spiced sauce</td>
+                  <td class="price">$16.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Saag Aloo (mild)</th>
+                  <td>Potatoes cooked in mild spiced spinach sauce</td>
+                  <td class="price">$16.00</td><td><button class="add" type="button">Add</button></td></tr>                 
+                <tr><th class="name">Dal Tadka (mild to medium)</th>
+                  <td>Yellow split lentil tempered with garlic, tomato and onion</td>
+                  <td class="price">$16.00</td><td><button class="add" type="button">Add</button></td></tr>          
+                <tr><th class="name">Dal Makhani (medium)</th>
+                  <td>Black lentil & kidney beans cooked with tomato, cream and butter</td> 
+                  <td class="price">$16.00</td><td><button class="add" type="button">Add</button></td></tr>        
+
+                <tr><th colspan="4">Tandoori Bread</th></tr>
+                <tr><th class="name">Plain Naan</th>
+                  <td>Leavened refined flour bread</td>
+                  <td class="price">$3.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Garlic Naan</th>
+                  <td>Garlic flavoured Naan</td>
+                  <td class="price">$4.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Cheese Naan</th>
+                  <td>Naan stuffed with cheese</td>
+                  <td class="price">$5.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Cheese & Garlic Naan</th>
+                  <td>Naan stuffed with cheese and smeared with garlic</td>
+                  <td class="price">$6.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Peshawari Naan</th>
+                  <td>Naan stuffed with Nuts and Dry fruits</td>
+                  <td class="price">$5.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Aloo Naan</th>
+                  <td>Naan stuffed with spiced mashed potatoes</td>
+                  <td class="price">$5.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Kheema Naan / Paneer Naan</th>
+                  <td>Naan stuffed with spiced lamb mince or spiced cottage cheese</td>
+                  <td class="price">$5.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Chilli Naan</th>
+                  <td></td>
+                  <td class="price">$4.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Spinach Naan</th>
+                  <td></td>
+                  <td class="price">$4.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Cheese & Chilli Naan</th>
+                  <td></td>
+                  <td class="price">$5.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Cheese & Spinach Naan</th>
+                  <td></td>
+                  <td class="price">$5.00</td><td><button class="add" type="button">Add</button></td></tr>        
+                <tr><th class="name">Roti</th>
+                  <td>Wholemeal bread</td>
+                  <td class="price">$3.00</td><td><button class="add" type="button">Add</button></td></tr>                      
+
+                  <tr><th colspan="4">Rice</th><td></tr>
+                  <tr><th class="name">Steamed Rice</th>
+                    <td></td>
+                    <td class="price">$3.00</td><td><button class="add" type="button">Add</button></td>
+                  <tr><th class="name">Saffron Rice</th>
+                    <td></td>
+                    <td class="price">$6.00</td><td><button class="add" type="button">Add</button></td>
+                  <tr><th class="name">Coconut Rice</th>
+                    <td></td>
+                    <td class="price">$6.00</td><td><button class="add" type="button">Add</button></td>
+                  <tr><th class="name">Jeera Peas Rice</th>
+                    <td></td>
+                    <td class="price">$6.00</td><td><button class="add" type="button">Add</button></td>
+                  <tr><th class="name">Biryani Rice</th>
+                    <td></td>
+                    <td class="price">$6.00</td><td><button class="add" type="button">Add</button></td>
+
+                    <tr><th colspan="4">Sides</th></tr>
+                    <tr><th class="name">Papadams</th>
+                      <td></td>
+                      <td class="price">$3.00</td><td><button class="add" type="button">Add</button></td>
+                    <tr><th class="name">Cucumber Raita</th>
+                      <td></td>
+                      <td class="price">$3.00</td><td><button class="add" type="button">Add</button></td>
+                    <tr><th class="name">Sweet Mango Chutney</th>
+                      <td></td>
+                      <td class="price">$3.00</td><td><button class="add" type="button">Add</button></td>
+                    <tr><th class="name">Mint Sauce</th>
+                      <td></td>
+                      <td class="price">$3.00</td><td><button class="add" type="button">Add</button></td>
+                    <tr><th class="name">Pickles</th>
+                      <td></td>
+                      <td class="price">$3.00</td><td><button class="add" type="button">Add</button></td>
+                </table>
+                </form>
+                <div>
+                  <p>Free rice with all Curries (TAKEAWAY ONLY).</p>
+                  <p>All curries Gluten Free & Halal.</p>
+                  <p>All prices include GST. Prices are subject to change without notice.</p>
+                </div>
+        </section>
+    </div>
+    <!-- The footer of the page, containing the opening hours, address and phone number  -->
+    <div class="footer">
+        <footer>
+            <div>
+                <h3>Opening Hours</h3>
+                <table>
+                <tr><th></th><th>&nbsp;&nbsp;</th><th>Lunch</th><th>&nbsp;&nbsp;</th><th>Dinner</th></tr>
+                <tr><th>Monday</th><td></td><td>Closed</td><td></td><td>Closed</td></tr>
+                <tr><th>Tuesday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Wednesday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Thursday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Friday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Saturday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                <tr><th>Sunday</th><td></td><td>11:30 am - 2:30 pm</td><td></td><td>5:00 pm - 9:30 pm</td></tr>
+                </table>
+            </div>
+            <div>
+                <h3>Phone</h3>
+                <p>
+                (03) 9568 1486
+                </p>
+                <h3>Email</h3>
+                <p>
+                <kbd>thegarden@c-link.com.au</kbd>
+                </p>
+                <h3>Address</h3>
+                <p>
+                Chadstone Shopping Centre<br>
+                1341 Dandenong Rd., Malvern East Vic., 3148<br>
+                </p>
+            </div>
+            <div>
+                <h3>Website Details</h3>
+                <p>
+                    Website developed by Rick Waldron
+                </p>
+                <p>
+                    Student ID: 0061135160
+                </p>
+                <a href="Report.html">Link to Report</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
